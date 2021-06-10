@@ -1,0 +1,86 @@
+/* display */
+/* .parent{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
+
+.child{
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+} */
+
+/* position */
+/* .parent{
+    position: relative;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.child{
+    position: absolute;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* right: 0; */
+    /* left: 0;
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: inline-block;
+}  */ 
+
+/* pseudo */
+/* button{
+    margin: 150px;
+    background-color: purple;
+    color: white;
+    border: 3px solid purple;
+    border-radius: 6px;
+    padding: 10px;
+} */
+
+/* micro intreactions */
+/* button:hover{
+    background-color: blue;
+} */
+
+/* on clicking */
+/* button:focus{
+    background-color: green;
+}
+
+button:disabled{
+    cursor: not-allowed;
+} */
+
+
+
+/* responsive  */
+body{
+    background-color: green;
+}
+
+/*
+bootstrap breakpoints 
+small devices 0-767 px
+tablet 678px
+laptop 1220px
+pc 1400px
+*/
+
+@media screen and (min-width:768px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media(min-width:1220px){
+    body{
+background-color: red;
+    }
+}
